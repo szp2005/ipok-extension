@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hd">
+        <span class="dot"></span>
+        <span class="brand">IPOK</span>
+        <span class="sub" id="sub">IP 纯净度</span>
+      </header>
+
+      <div id="loading" class="muted center">检测中…</div>
+
+      <main id="result" hidden>
+        <div class="iprow">
+          <span class="ip" id="ip">—</span>
+          <span class="ver" id="ver"></span>
+        </div>
+        <div class="meta" id="loc"></div>
+
+        <div class="risk">
+          <span class="score" id="score">—</span>
+          <span class="band" id="band"></span>
+          <span class="type" id="type"></span>
+        </div>
+
+        <div class="ai" id="ai"></div>
+
+        <a class="cta" id="full" href="https://ipok.io" target="_blank" rel="noreferrer">
+          查看完整报告 →
+        </a>
+      </main>
+
+      <div id="error" class="muted center" hidden>检测失败，请稍后重试</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
