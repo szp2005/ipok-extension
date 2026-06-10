@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "IPOK — IP 纯净度 / 风险检测",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一键查看当前线路 IP 的纯净度/风险值、原生IP、机房判定、AI 可用性。Powered by ipok.io",
   "action": {
     "default_popup": "popup.html",
