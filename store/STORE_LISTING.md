@@ -29,47 +29,53 @@ One-click check of your IP's purity, risk score, residential-vs-datacenter, and 
 
 ## 详细说明（Detailed description）
 
-**中文：**
+**中文（简体）：**
 
-点一下工具栏图标，一秒看清当前线路出口 IP 的真实状况——再也不用手动开网站查。
+IPOK 是一款一键检测当前线路 IP「纯净度 / 风险值」的浏览器插件，数据由 ipok.io 多源聚合提供。点开工具栏图标即可看到：
 
-🔍 它能告诉你：
-• 公网出口 IP（IPv4 / IPv6）、归属地、ASN / 运营商
-• 多源聚合的纯净度 / 风险值，并标注是代理 / VPN / 机房还是滥用 IP
-• 原生 IP 还是广播 / 机房 IP
-• ChatGPT、Claude、Gemini 在你所在地区是否可用
-• 适不适合 TikTok / 跨境电商 / 社媒养号 / AI 应用
+✅ 风险值（0–100）：多家数据源加权聚合，并解释「为什么被标记」——代理 / VPN / Tor / 机房 / 滥用记录一目了然
+✅ IP 类型：家庭宽带 / 数据中心机房 / 移动蜂窝 / 商业，以及是否为「原生 IP」
+✅ 归属地 + 运营商 + ASN
+✅ AI 服务可用性：当前 IP 能否使用 ChatGPT / Claude / Gemini
+✅ 一键跳转完整报告（含网络溯源、BGP、垃圾黑名单、WebRTC/DNS 泄露检测等）
 
-适合谁：做跨境电商、社媒运营、用 AI 服务、跑机场 / VPS 节点、或任何在意「我这条 IP 干不干净」的人。
+适合谁：
+· 跨境电商 / 独立站卖家 —— 换线路前先看这个 IP 干不干净
+· 远程办公 / 出海团队 —— 判断当前 IP 会不会被平台风控
+· 自建节点 / VPS 用户 —— 快速体检机房 IP 纯净度
+· 任何关心「我现在这个 IP 安不安全」的人
 
-特点：
-✓ 免费、无需注册、无任何追踪
-✓ 只向 ipok.io 发一次请求检测你的当前 IP，不收集、不存储、不卖数据
-✓ 现代简洁的暗色界面
-✓ 点「查看完整报告」可在 ipok.io 看 BGP 路由、IP 反查域名、WebRTC / DNS 泄露检测等更多细节
+隐私优先：
+· 免费，无需注册登录
+· 不收集、不存储、不追踪，无 Cookie、无埋点
+· 仅向 ipok.io 发一次请求来检测当前 IP，不申请任何多余权限
+· 评分算法完全公开透明（ipok.io/methodology）
 
-数据来源：ip-api、proxycheck、AbuseIPDB、Scamalytics、RIPEstat 等。结果为最佳努力的诊断参考，不构成任何账号 / 风控的绝对保证。
+官网：https://ipok.io
 
 **English：**
 
-Click the toolbar icon and instantly see the real status of your current exit IP — no more opening a site by hand.
+IPOK is a one-click browser extension that checks your current IP's "purity / risk score", powered by multi-source data from ipok.io. Click the toolbar icon to instantly see:
 
-🔍 It tells you:
-• Public exit IP (IPv4 / IPv6), location, ASN / ISP
-• Multi-source purity / risk score, flagging proxy / VPN / datacenter / abuse
-• Native IP vs broadcast / datacenter IP
-• Whether ChatGPT, Claude and Gemini are available in your region
-• How suitable the IP is for TikTok / e-commerce / social / AI use
+✅ Risk score (0–100): a weighted blend of multiple sources, with a clear "why it's flagged" — proxy / VPN / Tor / datacenter / abuse history at a glance
+✅ IP type: residential / datacenter / mobile / business, plus whether it's a "native IP"
+✅ Location + ISP + ASN
+✅ AI availability: whether your IP can use ChatGPT / Claude / Gemini
+✅ One click to the full report (network intel, BGP, spam blocklists, WebRTC/DNS leak tests…)
 
-Who it's for: cross-border e-commerce, social-media operators, AI users, proxy / VPS users — anyone who cares whether their exit IP is "clean".
+Who it's for:
+· Cross-border e-commerce & independent sellers — check if an IP is clean before switching lines
+· Remote / global teams — see whether your current IP risks being flagged
+· VPS / self-hosted node users — quickly audit datacenter IP purity
+· Anyone wondering "is the IP I'm on right now safe?"
 
-Highlights:
-✓ Free, no sign-up, zero tracking
-✓ Makes a single request to ipok.io to detect your current IP; stores nothing, sells nothing
-✓ Clean modern dark UI
-✓ Click "Full report" to see BGP routing, reverse-IP, WebRTC / DNS leak tests and more on ipok.io
+Privacy first:
+· Free, no sign-up
+· No data collection, no storage, no tracking, no cookies, no analytics
+· Makes a single request to ipok.io to check your current IP; requests no extra permissions
+· Fully transparent — the scoring methodology is public (ipok.io/methodology)
 
-Data sources: ip-api, proxycheck, AbuseIPDB, Scamalytics, RIPEstat. Results are best-effort diagnostics, not a guarantee.
+Website: https://ipok.io
 
 ---
 
