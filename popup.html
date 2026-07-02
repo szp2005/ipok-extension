@@ -32,6 +32,8 @@
           <span class="type" id="type"></span>
         </div>
 
+        <div class="consensus" id="consensus" hidden></div>
+
         <div class="ai" id="ai"></div>
 
         <a class="cta" id="full" href="https://ipok.io" target="_blank" rel="noreferrer">
@@ -39,7 +41,10 @@
         </a>
       </main>
 
-      <div id="error" class="muted center" hidden>检测失败，请稍后重试</div>
+      <div id="error" class="muted center" hidden>
+        <div class="err-txt" id="err-text">检测失败，请稍后重试</div>
+        <button class="retry-btn" id="retry" type="button">重新检测 / Retry</button>
+      </div>
     </div>
     <script src="popup.js"></script>
   </body>
